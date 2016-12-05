@@ -1,0 +1,14 @@
+# 端口号
+server:
+  port : 3333
+  context-path : /verein
+
+spring:
+  # 数据库
+  datasource:
+    url             : jdbc:mysql://127.0.0.1:3306/verein?useUnicode=true&amp;characterEncoding=utf8&useSSL=false
+    username        : root
+    password        : 123456
+
+logging:
+  file : ./springboot.log

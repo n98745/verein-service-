@@ -1,0 +1,12 @@
+spring:
+  #mybatis
+  datasource:
+    driverClassName : com.mysql.jdbc.Driver
+    max-active      : 20
+    max-idle        : 8
+    min-idle        : 8
+    initial-size    : 10
+  #redis
+  redis:
+    host : 127.0.0.1
+    port : 6379
